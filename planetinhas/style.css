@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    margin: 0;
+
+}
+
+header h2{
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header p{
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 300px;
+}
+
+.saturn-img{
+    height: 250px;
+    width: 450px;
+}
+
+.lineOne{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 7rem;
+    margin-top: 20px;
+}
+
+.lineTwo{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 2.5rem;
+    gap: 7rem;
+}
+
+.lineThree{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 7rem;
+    margin-right: 100px;
+}
+
+
+
+footer{
+    margin-top: 143px;
+    background-color: rgb(24, 24, 24);
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
